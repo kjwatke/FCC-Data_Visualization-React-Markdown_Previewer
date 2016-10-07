@@ -7,7 +7,7 @@ import Heading from './components/Heading';
 import Footer from './components/Footer';
 import './sass/_style.scss';
 
-const showInitialMD = "one line snippet: `var block`\n\n"  +
+const showInitialMD: string = "one line snippet: `var block`\n\n"  +
   "blockquote:\n\n" + 
   "> Blockquote: 'Four Score and Seven Years Ago'" +
   "some headings: \n\n" + 
@@ -34,7 +34,7 @@ class App extends React.Component {
     this.getMarkdownText = this.getMarkdownText.bind(this);
     this.update = this.update.bind(this);
   }
-  getMarkdownText = (val) => {
+  getMarkdownText: Object = (val: string) => {
     let rawMarkup = marked(val, {sanitize: true, gfm: true});
     return { __html: rawMarkup };
   }
@@ -47,9 +47,7 @@ class App extends React.Component {
     return (
         <div className="app-container">
           <Heading />
-          <textarea placeholder="place md here" type="text" className="md-input" onChange={this.update} />
-          <div className="md-input-title">MARKDOWN</div>
-          <div className="md-output-title">PREVIEW</div>
+          <textarea placeholder="place md here" type="text" className="md-input" onChange={this.update} rows={25}/>
           <div className="md-output" dangerouslySetInnerHTML={this.getMarkdownText(this.state.txt)}></div>  
           <Footer></Footer>        
         </div>

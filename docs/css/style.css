@@ -1,0 +1,76 @@
+body {
+  background-color: white; }
+  body .md-input {
+    background-color: white;
+    color: #140005; }
+  body .md-output {
+    background-color: white;
+    color: #140005; }
+  body .nav-main {
+    background-color: #3c3b41;
+    color: #fcffff; }
+    body .nav-main a:link {
+      color: #0214fa; }
+    body .nav-main a:visited {
+      color: #ff8237; }
+
+.app-container textarea, div {
+  box-shadow: 2px 2px 5px 2px #280d00; }
+
+.md-input {
+  width: 45%;
+  height: 82vh;
+  font-size: 1.3rem;
+  margin-left: 5%;
+  margin-top: -0.4%;
+  border: 1px solid black;
+  border-right: 4px solid gray;
+  box-shadow: 15px 5px 5px -15px rgba(1, 4, 10, 0.94); }
+  .md-input:focus {
+    border: 1px solid orange;
+    outline: 2px solid orange; }
+
+.md-output {
+  width: 45%;
+  height: 82vh;
+  float: right;
+  display: inline-block;
+  padding: 2%;
+  margin-right: 5%;
+  margin-top: -0.4%;
+  border: solid 1px black;
+  border-left: solid 4px gray; }
+
+.nav-main {
+  text-align: center;
+  width: 99%;
+  height: 10%;
+  margin-bottom: 5%;
+  padding-top: .4%; }
+
+.footer-main {
+  display: block;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 1%; }
+
+@media screen and (max-width: 620px) and (orientation: portrait) {
+  body .md-input {
+    width: 90%;
+    height: 40%;
+    margin: 0 5%; }
+  body .md-output {
+    width: 90%;
+    height: 40%;
+    margin: 0 5%;
+    border: 1px solid black;
+    overflow: auto; }
+  body .footer-main {
+    display: block;
+    margin-top: 50%; } }
+
+body * {
+  font-family: Inconsolata, Monaco, "Andale Mono", "Lucida Console", sans-serif;
+  position: relative; }
+  body * .footer-main {
+    font-family: cursive; }

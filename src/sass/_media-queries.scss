@@ -1,5 +1,23 @@
 @media screen and (max-width: 620px) and (orientation: portrait) {
-  body * {
-    display: none;
+  body {
+    .md-input {
+      width: 90%;
+      height: 40%;
+      margin: 0 5%;
+    }
+    .md-output {
+      width: 90%;
+      height: 40%;
+      margin: 0 5%;
+      border: 1px solid black;
+      overflow: auto;
+    }
+    .footer-main {
+      display: block;
+      margin-top: 50%;
+    }
   }
+}
+
+@media sceeen and (max-width: 1112px) and (orientation: portrait) {
 }
