@@ -1,0 +1,25 @@
+$md-bg-color: rgb(255, 255, 255);
+$bg-color: rgb(255, 255, 255);
+$text-color: rgb(20, 0, 5);
+
+body {
+background-color: $bg-color;
+  .md-input {
+    background-color: $md-bg-color;
+    color: $text-color;
+  }
+  .md-output {
+    background-color: $bg-color;
+    color: $text-color;
+  }
+  .nav-main {
+    background-color: rgb(60, 59, 65);
+    color: rgb(252, 255, 255);
+    a:link {
+      color: rgb(2, 20, 250);
+    }
+    a:visited {
+      color: rgb(255, 130, 55)
+    }
+  }
+}

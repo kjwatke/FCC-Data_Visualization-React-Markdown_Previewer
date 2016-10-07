@@ -1,0 +1,63 @@
+
+.md-input {
+  width: 49%;
+  height: 82vh;
+  font-size: 1.3rem;
+  margin-left: 1%;
+  margin-top: -0.4%;
+  border: 1px solid black;
+  box-shadow: 15px 5px 5px -15px rgba(1, 4, 10, 0.94);
+  &:focus {
+    border: 1px solid orange;
+    outline: 2px solid orange;
+  }
+}
+
+.md-output {
+  width: 49%;
+  height: 82vh;
+  float: right;
+  display: inline-block;
+  padding: 2%;
+  margin-right: 1%;
+  margin-top: -0.4%;
+  border: solid 1px rgb(0, 0, 0);
+  border-left: none;
+}
+.nav-main {
+  text-align: center;
+  width: 99%;
+  height: 10%;
+  margin-bottom: 5%;
+  padding-top: .4%;
+ 
+}
+
+.md-input-title {
+  position: absolute;
+  top: 15.1%;
+  left: 1%;
+  border: 1px solid black;
+  padding-left: 22%;
+  padding-right: 22.2%;
+  padding-top: .5%;
+  padding-bottom: .5%;
+}
+
+.md-output-title {
+  position: absolute;
+  top: 15.1%;
+  left: 49.9%;
+  border: 1px solid black;
+  padding-left: 22%;
+  padding-right: 22.9%;
+  padding-top: .5%;
+  padding-bottom: .5%;
+}
+
+.footer-main {
+  display: block;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 1%;
+}
