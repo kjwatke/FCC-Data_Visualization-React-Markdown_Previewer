@@ -8,7 +8,7 @@ require('sass-loader')
 module.exports = {
   entry: './src/index.tsx',
   output: {
-    filename: 'dist/bundle.js'
+    filename: 'docs/bundle.js'
   },
   resolve: {
     extensions: ['', '.ts', '.tsx', '.js', '.jsx'],
@@ -32,7 +32,7 @@ module.exports = {
   ],
   plugins: [
     new WebpackNotifierPlugin({ alwaysNotify: true }),
-    new ExtractTextPlugin('dist/css/style.css', {
+    new ExtractTextPlugin('docs/css/style.css', {
       allChunks: true
     })
   ]
