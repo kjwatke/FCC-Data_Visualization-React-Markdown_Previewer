@@ -1,8 +1,8 @@
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import bootstrap from 'bootstrap';
-import marked from 'marked';
+//import React from 'react';
+//import ReactDOM from 'react-dom';
+//import bootstrap from 'bootstrap';
+//import marked from 'marked';
 import Heading from './components/Heading';
 import Footer from './components/Footer';
 import './sass/_style.scss';
@@ -59,6 +59,3 @@ class App extends React.Component {
 
 
 ReactDOM.render(<App />, document.getElementById('app'));
-
-
-
